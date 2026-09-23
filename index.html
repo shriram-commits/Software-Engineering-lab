@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hospital management system</title>
+<script>
+let patientCount=0;
+function addPatient()
+{
+let name=document.getElementById("name").value;
+let age=document.getElementById("age").value;
+let disease=getElementById("disease").value;
+if(name=="")||age==""||disease=="")
+{
+alert("please fill all fields");
+return false;
+}
+patientCount++:
+document.getElementById("patientCount").innerHTML="Patient Count:"+patientCount;
+return false;
+}
+</script>
+</head>
+<body>
+<h2>Hospital Management System</h2>
+<form onsubmit="return addPatient()">
+Name:<input type="text"id="name"><br><br>
+Age:<input type="number"id="age"><br><br>
+Disease:<input type="text"id="disease"><br><br>
+<input type="submit" value="sumbit">
+</form>
+<h3 id="patientCount">Patient Count:0</h3>
+</body></html>
