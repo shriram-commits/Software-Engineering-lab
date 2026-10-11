@@ -1,2 +1,0 @@
-PROBLEM STATEMENT:
-The Hospital Management System (HMS) will interface with various modules and hardware/software components, including: 
